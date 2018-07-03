@@ -3,7 +3,7 @@ import java.util.*;
 public class Audretsch {
   int marbles; 
   public void smartMove() {
-    if ((":63:31:15:7:3:").contains(":" + this.marbles + ":")) 
+    if ((":63:31:15:7:3:").contains(":        " + this.marbles + ":")) 
       this.randomMove();
     else if (this.marbles > 63) this.marbles = 63; 
     else if (this.marbles > 31) this.marbles = 31; 
